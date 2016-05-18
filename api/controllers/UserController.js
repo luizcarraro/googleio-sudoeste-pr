@@ -6,6 +6,10 @@
  */
 
 module.exports = {
+
+	sayHello: function (req, res) {
+		res.ok('Hello world');
+	}
 	
 };
 
